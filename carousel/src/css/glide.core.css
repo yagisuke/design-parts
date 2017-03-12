@@ -19,6 +19,7 @@
       touch-action: pan-Y;
   overflow: hidden;
   padding: 0;
+  margin: 0;
 }
 .glide__track.dragging {
   cursor: grabbing;
