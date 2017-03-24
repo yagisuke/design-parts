@@ -113,13 +113,11 @@ header h1 img {
   display: block;
   margin: 20px 0 0;
   padding: 20px 20px 0;
-  border-top: 1px solid #aaa;
+  border-top: 1px solid #ccc;
 }
 .article-remarks-title {
   float: left;
-  font-weight: normal;
   font-size: 14px;
-  color: #333;
 }
 .article-remarks-list > li {
   float: left;
