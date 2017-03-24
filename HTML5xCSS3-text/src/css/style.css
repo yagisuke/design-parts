@@ -29,7 +29,7 @@ header h1 {
   margin: 0 auto;
 }
 /* 記事 */
-article {
+.article {
   background-color: #fff;
   width: 900px;
   margin: 0 auto;
@@ -42,11 +42,30 @@ article {
   box-shadow: 1px 1px 3px #aaa;
   border-radius: 20px;
 }
+.article-section {
+  overflow: hidden;
+}
+.article-text {
+  margin: 20px 0;
+}
 .article-photo {
-  padding; 0;
-  margin: 30px 0;
+  padding: 0;
+  margin: 20px;
+  font-size: 0;
   text-align: center;
 }
+.article-photo.left {
+  float: left;
+  margin-left: 0;
+}
+.article-photo.right {
+  float: right;
+  margin-right: 0;
+}
+.article-photo img {
+  width: 500px;
+}
+
 /* フッター */
 footer {
   width: 900px;
