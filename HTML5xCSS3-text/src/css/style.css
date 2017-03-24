@@ -1,16 +1,20 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Share");
 
+html, body, section, article, aside, h1, h2, h3, h4, h5, h6,
+fieldset, form, div, img, p, pre, dl, dt, dd, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
-  font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', 'sans-serif';
+  font-family: 'Meiryo', 'Hiragino Kaku Gothic Pro', 'sans-serif';
   background-color: #edede3;
-  margin: 0;
   background-image: url(../img/texture.jpg);
 }
 h1 {
   font-size: 38px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 p {line-height: 1.2;}
 
@@ -50,15 +54,18 @@ header h1 img {
   -webkit-box-shadow: 1px 1px 3px #aaa;
   box-shadow: 1px 1px 3px #aaa;
   border-radius: 20px;
-}
-.article-section {
   overflow: hidden;
+}
+.article-title-small {
+  border-bottom: 5px solid #aaa;
+  font-size: 24px;
+  color: #aaa;
+  clear: both;
 }
 .article-text {
   margin: 20px 0;
 }
 .article-photo {
-  padding: 0;
   margin: 20px;
   font-size: 0;
   text-align: center;
@@ -69,7 +76,7 @@ header h1 img {
 .article-photo-caption {
   line-height: 3;
   font-size: 11px;
-  color: #7a7a7a;
+  color: #aaa;
 }
 .article-photo.left {
   float: left;
