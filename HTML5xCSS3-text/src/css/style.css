@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Share");
 
-body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
+body, div, p, nav, ul, ol, li, dl, dt, dd, table, th, td, img, figure,
+h1, h2, h3, h4, h5, h6, form, select, section, article {
   margin: 0;
   padding: 0;
 }
@@ -12,9 +13,19 @@ ul, ol {
   list-style: none;
 }
 body {
+  font-family: 'Meiryo', 'Hiragino Kaku Gothic Pro', 'sans-serif';
+  background-color: #edede3;
+  background-image: url(../img/texture.jpg);
   font-size: 14px;
   line-height: 1.7;
   color: #333;
+}
+p {
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 .cf { zoom: 1; }
 .cf:after	{
@@ -24,15 +35,8 @@ body {
   clear: both;
 }
 
-body {
-  font-family: 'Meiryo', 'Hiragino Kaku Gothic Pro', 'sans-serif';
-  background-color: #edede3;
-  background-image: url(../img/texture.jpg);
-}
-p {line-height: 1.4;}
-
 /* ヘッダー */
-header {
+.header {
   background-color: #fff;
   border-bottom: solid 1px #aaa;
   margin-bottom: 30px;
@@ -40,17 +44,40 @@ header {
   box-shadow: 0 1px 7px #aaa;
   padding: 5px;
 }
-header h1 {
-  font-family: 'Share', 'cursive';
-  font-size: 24px;
+.header-title {
   width: 900px;
   margin: 0 auto;
+  font-family: 'Share', 'cursive';
+  font-size: 24px;
+  line-height: 1;
 }
-header h1 img {
+.header-thumb {
   height: 36px;
-  weight: 36px;
+  width: 36px;
   vertical-align: text-bottom;
   margin-right: 5px;
+}
+.header-nav {
+  width: 900px;
+  margin: 0 auto;
+  text-align: right;
+  margin-top: -23px;
+}
+.header-nav-list > li {
+  display: inline;
+  font-size: 12px;
+  border-right: 1px solid #aaa;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header-nav-list > li:first-child {
+  border-left: 1px solid #aaa;
+}
+.header-nav-link {
+  color: #ccc;
+}
+.header-nav-link:hover {
+  color: #aaa;
 }
 
 /* 記事 */
@@ -125,8 +152,6 @@ header h1 img {
 }
 .article-remarks-link {
   color: #ccc;
-  text-decoration: none;
-  cursor: pointer;
 }
 .article-remarks-link:hover {
   color: #aaa;
