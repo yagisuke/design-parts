@@ -63,20 +63,31 @@ header h1 img {
   font-size: 0;
   text-align: center;
 }
+.article-photo img {
+  width: 500px;
+}
+.article-photo-caption {
+  line-height: 3;
+  font-size: 11px;
+  color: #7a7a7a;
+}
 .article-photo.left {
   float: left;
   margin-left: 0;
+}
+.article-photo.left .article-photo-caption {
+  text-align: left;
 }
 .article-photo.right {
   float: right;
   margin-right: 0;
 }
-.article-photo img {
-  width: 500px;
+.article-photo.right .article-photo-caption {
+  text-align: right;
 }
 
 /* フッター */
 footer {
   width: 900px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
