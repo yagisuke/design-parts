@@ -17,7 +17,7 @@ body {
   background-color: #edede3;
   background-image: url(../img/texture.jpg);
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #333;
 }
 p {
@@ -151,10 +151,17 @@ a {
   margin-left: 20px;
 }
 .article-remarks-link {
+  display: block;
   color: #ccc;
 }
 .article-remarks-link:hover {
   color: #aaa;
+}
+.article-remarks-link::before {
+  content: "▶︎";
+  padding-right: 3px;
+  font-size: 10px;
+  vertical-align: text-bottom;
 }
 
 /* フッター */
