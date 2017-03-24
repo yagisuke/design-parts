@@ -56,11 +56,13 @@ header h1 img {
   border-radius: 20px;
   overflow: hidden;
 }
-.article-title-small {
+.article-section {
+  clear: both;
+}
+.article-section-title {
   border-bottom: 5px solid #aaa;
   font-size: 24px;
   color: #aaa;
-  clear: both;
 }
 .article-text {
   margin: 20px 0;
