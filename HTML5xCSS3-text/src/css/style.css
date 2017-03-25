@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Share");
-
-body, div, p, nav, ul, ol, li, dl, dt, dd, table, th, td, img, figure,
+ 
+html, body, div, p, nav, ul, ol, li, dl, dt, dd, table, th, td, img, figure,
 h1, h2, h3, h4, h5, h6, form, select, section, article {
   margin: 0;
   padding: 0;
@@ -11,6 +11,9 @@ main, article, aside, figcaption, figure, footer, header, nav, section, details,
 }
 ul, ol {
   list-style: none;
+}
+html {
+  overflow-y: scroll;
 }
 body {
   font-family: 'Meiryo', 'Hiragino Kaku Gothic Pro', 'sans-serif';
