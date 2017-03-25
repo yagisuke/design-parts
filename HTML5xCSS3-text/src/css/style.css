@@ -49,10 +49,10 @@ a:hover {
 /* ヘッダー */
 .header {
   background-color: #fff;
-  border-bottom: solid 1px #aaa;
-  margin-bottom: 30px;
   -webkit-box-shadow: 0 1px 7px #aaa;
   box-shadow: 0 1px 7px #aaa;
+  margin-bottom: 30px;
+  border-bottom: solid 1px #aaa;
   padding: 5px;
 }
 .header-title {
@@ -69,21 +69,21 @@ a:hover {
 .header-thumb {
   height: 36px;
   width: 36px;
-  vertical-align: text-bottom;
   margin-right: 5px;
+  vertical-align: text-bottom;
 }
 .header-nav {
   width: 900px;
   margin: 0 auto;
-  text-align: right;
   margin-top: -21px;
+  text-align: right;
 }
 .header-nav-list > li {
   display: inline;
-  font-size: 12px;
   border-right: 1px solid #aaa;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 12px;
 }
 .header-nav-list > li:first-child {
   border-left: 1px solid #aaa;
@@ -91,7 +91,6 @@ a:hover {
 
 /* 記事 */
 .article {
-  max-width: 900px;
   background-color: #fff;
   width: 900px;
   margin: 15px auto;
@@ -168,6 +167,18 @@ a:hover {
 /* お知らせ */
 #info header {
   margin-bottom: 20px;
+}
+.info-item {
+  padding: 0;
+}
+.info-item a {
+  overflow: hidden;
+  display: block;
+  padding: 20px;
+  color: #333;
+}
+.info-item a:hover .text {
+  color: #ccc;
 }
 .info-title {
   width: 900px;
