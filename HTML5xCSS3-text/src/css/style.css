@@ -25,7 +25,11 @@ p {
 }
 a {
   text-decoration: none;
+  color: #aaa;
   cursor: pointer;
+}
+a:hover {
+  color: #ccc;
 }
 .cf { zoom: 1; }
 .cf:after	{
@@ -47,9 +51,13 @@ a {
 .header-title {
   width: 900px;
   margin: 0 auto;
+  line-height: 1;
   font-family: 'Share', 'cursive';
   font-size: 24px;
-  line-height: 1;
+}
+.header-title-link,
+.header-title-link:hover {
+  color: #333;
 }
 .header-thumb {
   height: 36px;
@@ -72,12 +80,6 @@ a {
 }
 .header-nav-list > li:first-child {
   border-left: 1px solid #aaa;
-}
-.header-nav-link {
-  color: #ccc;
-}
-.header-nav-link:hover {
-  color: #aaa;
 }
 
 /* 記事 */
@@ -152,10 +154,6 @@ a {
 }
 .article-remarks-link {
   display: block;
-  color: #ccc;
-}
-.article-remarks-link:hover {
-  color: #aaa;
 }
 .article-remarks-link::before {
   content: "▶︎";
