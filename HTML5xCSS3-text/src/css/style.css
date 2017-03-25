@@ -34,6 +34,10 @@ a {
 a:hover {
   color: #ccc;
 }
+.text {
+  margin: 20px 0;
+  text-align: justify;
+}
 .cf { zoom: 1; }
 .cf:after	{
   content: "";
@@ -90,7 +94,7 @@ a:hover {
   max-width: 900px;
   background-color: #fff;
   width: 900px;
-  margin: 0 auto;
+  margin: 15px auto;
   border: solid 1px #aaa;
   padding: 30px;
   -webkit-box-sizing: border-box;
@@ -109,10 +113,6 @@ a:hover {
   padding-left: 10px;
   font-size: 24px;
   color: #aaa;
-}
-.article-text {
-  margin: 20px 0;
-  text-align: justify;
 }
 .article-photo {
   margin: 20px;
@@ -165,8 +165,26 @@ a:hover {
   vertical-align: text-bottom;
 }
 
+/* お知らせ */
+#info header {
+  margin-bottom: 20px;
+}
+.info-title {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 38px;
+  line-height: 1;
+}
+.info-item img {
+  float: left;
+  margin-right: 20px;
+}
+.info-item-title {
+  font-size: 24px;
+}
+
 /* フッター */
-footer {
+.footer {
   width: 900px;
   margin: 20px auto;
 }
