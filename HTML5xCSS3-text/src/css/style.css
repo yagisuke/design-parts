@@ -108,10 +108,27 @@ a:hover {
   text-shadow: 0 5px 10px #000;
 }
 .top-cover-catch {
+  margin: 0 0 30px;
   color: #fff;
   font-size: 20px;
   font-weight: bold;
   text-shadow: 0 5px 10px #000;
+}
+.action-button {
+  display: inline-block;
+  background-color: #ffaa00;
+  border-radius: 10px;
+  padding: 10px 80px;
+  background-color: #ffaa00;
+  background-image: linear-gradient(
+    to bottom,
+    #ffe7b8 0%,
+    #ffaa00 100%);
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    #ffe7b8 0%,
+    #ffaa00 100%);
+  color: #333;
 }
 
 /* 記事 */
