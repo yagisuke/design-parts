@@ -128,6 +128,18 @@ a:hover {
     to bottom,
     #ffe7b8 0%,
     #ffaa00 100%);
+    font-weight: bold;
+  color: #333;
+}
+.action-button:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #ffaa00 0%,
+    #ffe7b8 100%);
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    #ffaa00 0%,
+    #ffe7b8 100%);
   color: #333;
 }
 
