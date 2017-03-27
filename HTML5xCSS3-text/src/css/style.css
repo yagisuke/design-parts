@@ -51,7 +51,6 @@ a:hover {
   background-color: #fff;
   -webkit-box-shadow: 0 1px 7px #aaa;
   box-shadow: 0 1px 7px #aaa;
-  margin-bottom: 30px;
   border-bottom: solid 1px #aaa;
   padding: 5px;
 }
@@ -59,7 +58,7 @@ a:hover {
   width: 900px;
   margin: 0 auto;
   line-height: 1;
-  font-family: 'Share', 'cursive';
+  font-family: 'Share';
   font-size: 24px;
 }
 .header-title-link,
@@ -89,7 +88,36 @@ a:hover {
   border-left: 1px solid #aaa;
 }
 
+/* トップ */
+.top-cover-photo {
+  height: 573px;
+  background-image: url(../img/top.jpg);
+  background-size: 1000px 573px;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-color: #eee;
+  padding: 200px 0 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.top-cover-title {
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Share';
+  text-shadow: 0 5px 10px #000;
+}
+.top-cover-catch {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0 5px 10px #000;
+}
+
 /* 記事 */
+#article .header {
+  margin-bottom: 30px;
+}
 .article {
   background-color: #fff;
   width: 900px;
