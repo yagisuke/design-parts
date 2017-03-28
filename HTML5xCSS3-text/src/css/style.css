@@ -266,8 +266,15 @@ a:hover {
   border: 1px solid #333;
 }
 .table {
+  margin: 30px auto;
   border-collapse: collapse;
-  margin: 0 auto;
+}
+.table caption {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #d9d8a7;
+  border-radius: 10px;
+  font-weight: bold;
 }
 .table th,
 .table td {
