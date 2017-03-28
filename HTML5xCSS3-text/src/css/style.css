@@ -58,7 +58,7 @@ a:hover {
   background-color: #fff;
   -webkit-box-shadow: 0 1px 7px #aaa;
   box-shadow: 0 1px 7px #aaa;
-  border-bottom: solid 1px #aaa;
+  border-bottom: 1px solid #aaa;
   padding: 5px;
 }
 .header-title {
@@ -257,6 +257,30 @@ a:hover {
   background-color: #bdbc8f;
   border-radius: 10px;
   padding: 2px 20px;
+}
+
+/* サイトについて */
+.table,
+.table th,
+.table td {
+  border: 1px solid #333;
+}
+.table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.table th,
+.table td {
+  padding: 10px 20px;
+}
+.table th {
+  width: 150px;
+  background-color: #ffcb63;
+  text-align:left;
+}
+.table td {
+  width: 450px;
+  background-color: #ffedce;
 }
 
 /* フッター */
