@@ -47,6 +47,13 @@ a:hover {
 }
 
 /* ヘッダー */
+#article .header,
+#about .header {
+  margin-bottom: 30px;
+}
+#info .header {
+  margin-bottom: 20px;
+}
 .header {
   background-color: #fff;
   -webkit-box-shadow: 0 1px 7px #aaa;
@@ -144,9 +151,6 @@ a:hover {
 }
 
 /* 記事 */
-#article .header {
-  margin-bottom: 30px;
-}
 .article {
   background-color: #fff;
   width: 900px;
@@ -222,9 +226,6 @@ a:hover {
 }
 
 /* お知らせ */
-#info header {
-  margin-bottom: 20px;
-}
 .info-item {
   padding: 0;
 }
