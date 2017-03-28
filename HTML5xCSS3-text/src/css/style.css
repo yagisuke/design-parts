@@ -48,7 +48,8 @@ a:hover {
 
 /* ヘッダー */
 #article .header,
-#about .header {
+#about .header,
+#contact .header {
   margin-bottom: 30px;
 }
 #info .header {
@@ -252,11 +253,11 @@ a:hover {
   margin-right: 20px;
 }
 .info-item-time {
-  font-size: 12px;
-  color: #fff;
   background-color: #bdbc8f;
   border-radius: 10px;
   padding: 2px 20px;
+  font-size: 12px;
+  color: #fff;
 }
 
 /* サイトについて */
@@ -288,6 +289,44 @@ a:hover {
 .table td {
   width: 450px;
   background-color: #ffedce;
+}
+
+/* お問い合わせ */
+.form input,
+.form textarea {
+  display: block;
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #eee;
+}
+.form .form-item-area {
+  margin: 15px 0;
+}
+.form input {
+  width: 400px;
+}
+.form input[type="submit"] {
+  width: 200px;
+  padding: 10px 0;
+  background-color: #ffaa00;
+  background-image: -webkit-linear-gradient(
+    top,
+    #ffe7b8 0%,
+    #ffaa00 100%
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #ffe7b8 0%,
+    #ffaa00 100%
+  );
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.form textarea {
+  width: 600px;
+  height: 120px;
 }
 
 /* フッター */
