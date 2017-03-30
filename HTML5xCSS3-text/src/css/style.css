@@ -47,13 +47,13 @@ a:hover {
 }
 
 /* ヘッダー */
+#info .header {
+  margin-bottom: 20px;
+}
 #article .header,
 #about .header,
 #contact .header {
   margin-bottom: 30px;
-}
-#info .header {
-  margin-bottom: 20px;
 }
 .header {
   background-color: #fff;
@@ -94,6 +94,45 @@ a:hover {
 }
 .header-nav-list > li:first-child {
   border-left: 1px solid #aaa;
+}
+
+/* 二段組 */
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+#content {
+  width: 600px;
+  float: left;
+}
+#sidemenu {
+  width: 270px;
+  float: right;
+}
+#content .article {
+  width: auto;
+  margin: 0;
+}
+.sidemenu-casset {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  padding: 20px;
+  margin: 0 0 30px;
+  -webkit-box-shadow: 1px 1px 3px #aaa;
+  box-shadow: 1px 1px 3px #aaa;
+  border-radius: 20px;
+}
+.sidemenu-list {
+  padding: 10px;
+}
+.sidemenu-link {
+  display: block;
+}
+.sidemenu-link::before {
+  content: "▶︎";
+  padding-right: 3px;
+  font-size: 10px;
+  vertical-align: text-bottom;
 }
 
 /* トップ */
@@ -183,7 +222,7 @@ a:hover {
   text-align: center;
 }
 .article-photo img {
-  width: 500px;
+  width: 250px;
 }
 .article-photo-caption {
   line-height: 3;
